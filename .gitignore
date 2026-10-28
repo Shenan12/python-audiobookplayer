@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Editors and tools
+.vscode/
+.idea/
+.claude/
+
+# The app keeps its data in ~/.m4b_player, outside this folder, but just in case
+.m4b_player/
+library.db
+covers/
+*.log
+*.ico
+
+# Never commit audiobooks (large, and usually copyrighted)
+*.m4b
+*.m4a
+*.mp4
+
+# Windows
+Thumbs.db
+desktop.ini
+*.lnk
